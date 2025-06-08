@@ -1,0 +1,26 @@
+.frase-hover {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.visible-texto {
+  transition: opacity 0.3s ease;
+}
+
+.hover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.frase-hover:hover .visible-text {
+  opacity: 0;
+}
+
+.frase-hover:hover .hover-text {
+  opacity: 1;
+}
+

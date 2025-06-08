@@ -1,0 +1,214 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Carte-Before-After {
+  color: #fff;
+  background-image: url(../../assets/img/photo-1605364850023-a917c39f8fe9.jpg);
+  background-size: cover;
+  padding: 8rem 0 0;
+  max-width: 35ch;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Carte-Contenu-1A {
+  padding: 1.5rem;
+  background-image: repeating-linear-gradient(35deg, rgba(97,97,97,0.1) 0px, rgba(97,97,97,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgba(43,43,43,0.74),rgba(43,43,43,0.68));
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.Carte-Titre-1A {
+  position: relative;
+  /*width: max-content;*/
+}
+
+.Carte-Titre-1A::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background: #20f943;
+  width: 100%;
+  left: 5px;
+  bottom: -5px;
+}
+
+.Carte-Corp-De-Texte-1A {
+  padding: 10px;
+  line-height: 1.6;
+  display: block;
+  text-align: justify;
+  /*letter-spacing: -1px;*/
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Acme' ,sans-serif;
+}
+
+.Bouton-Carte-1A {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #20f943;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 0%;
+  width: 100%;
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Carte-Before-After-2 {
+  color: #fff;
+  background-image: url(../../assets/img/photo-1586769852351-8791d2bb43be.jpg);
+  background-size: cover;
+  padding: 8rem 0 0;
+  max-width: 35ch;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Carte-Contenu-1A-2 {
+  padding: 1.5rem;
+  background-image: repeating-linear-gradient(35deg, rgba(97,97,97,0.1) 0px, rgba(97,97,97,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgba(43,43,43,0.74),rgba(43,43,43,0.68));
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.Carte-Titre-1A-2 {
+  position: relative;
+  /*width: max-content;*/
+}
+
+.Carte-Titre-1A-2::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background: #fb530b;
+  width: 100%;
+  left: 5px;
+  bottom: -5px;
+}
+
+.Carte-Corp-De-Texte-1A-2 {
+  padding: 10px;
+  line-height: 1.6;
+  display: block;
+  text-align: justify;
+  /*letter-spacing: -1px;*/
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Acme' ,sans-serif;
+}
+
+.Bouton-Carte-1A-2 {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #e1581d;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 0%;
+  width: 100%;
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Carte-Before-After-3 {
+  color: #fff;
+  background-image: url(../../assets/img/photo-1603091083715-8d54d0e27660.jpg);
+  background-size: cover;
+  padding: 8rem 0 0;
+  max-width: 35ch;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Carte-Contenu-1A-3 {
+  padding: 1.5rem;
+  background-image: repeating-linear-gradient(35deg, rgba(97,97,97,0.1) 0px, rgba(97,97,97,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgba(54,136,111,0.7),rgba(47,190,147,0.64));
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.Carte-Titre-1A-3 {
+  position: relative;
+  /*width: max-content;*/
+}
+
+.Carte-Titre-1A-3::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background: #2fbe93;
+  width: 100%;
+  left: 5px;
+  bottom: -5px;
+}
+
+.Carte-Corp-De-Texte-1A-3 {
+  padding: 10px;
+  line-height: 1.6;
+  display: block;
+  text-align: justify;
+  /*letter-spacing: -1px;*/
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Acme' ,sans-serif;
+}
+
+.Bouton-Carte-1A-3 {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #2fbe93;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 0%;
+  width: 100%;
+  display: block;
+}
+
+.Section-Tableau {
+  padding: 0;
+  max-height: 70vh;
+  background-color: rgba(54,136,111,0.7);
+  overflow: hidden;
+}
+
+@media (max-width:768px),(max-width:300px) {
+  .Section-Tableau, .tableau {
+    padding: 0;
+    max-height: 1515px;
+  }
+}
+
+.tableau {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.Col-Card {
+  width: 35ch;
+}
+
